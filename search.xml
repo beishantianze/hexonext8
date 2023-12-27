@@ -8,9 +8,23 @@
       <link href="/hexonext8//post/%E5%85%89%E5%AD%90%E6%B0%94%E4%BD%93.html"/>
       <url>/hexonext8//post/%E5%85%89%E5%AD%90%E6%B0%94%E4%BD%93.html</url>
       
-        <content type="html"><![CDATA[<p>参考书籍《热物理概念 热力学与统计物理学》<br>如果n 为窖中光子气体单位体积的 光子数，则气体的能量密度u 可以写成<br>$u&#x3D;\frac{U}{V}&#x3D;n\hslash\omega$<br>$$</p>]]></content>
+        <content type="html"><![CDATA[<p>参考书籍《热物理概念 热力学与统计物理学》<br>我们将环境视为体积为V 的容器(在这个主题中它称为“空窖”)，温度维持为T.<br>窖内的光子与窖壁达到热平衡，形成电磁驻波.如图23.1所示，窖壁由可以导热的材料组成(即窖壁可以在窖内的光子气体和环境之间传输热量)</p><p>!()[231.png]</p><p>如果n为窖中光子气体单位体积的光子数，则气体的能量密度u可以写成<br>$$u&#x3D;\frac{U}{V}&#x3D;n\hslash\omega\tag{1}$$<br>其中$\hslash\omega$是一个光子的平均能量.从动理学理论(之后写)可知，粒子气体的压强为$P&#x3D;\frac{1}{3}nm&lt;v^2&gt;$. 对于光子，用光速的平方$c^2$取代该公式中的$&lt;v^2&gt;$.<br>将$mc^2$解释为一个光子的能量，则有辐射压强p等于能量密度的1&#x2F;3.于是<br>$$p&#x3D;\frac{u}{3}\tag{2}$$<br>它不同于气体动理学理论中的表示式($p&#x3D;\frac{2u}{c}$)<br>(2)给出了电磁辐射产生的辐射压强的表示式.<br>又由动理学理论可知，在容器壁上光子的通量$\Phi$,也就是说每秒钟撞击容器壁单位面积的光子数，由下式给出：<br>$$\Phi&#x3D;\frac{1}{4}nc\tag{3}$$<br>其中c是光速.<br>由该式与方程(1),我们可以将光子产生的单位窖壁面积上的入射功率写为<br>$$F&#x3D;hw\Phi&#x3D;\frac{1}{4}uc\tag{4}$$<br>当我们现在推导斯特藩- 玻尔兹曼定律(Stefan-Boltzmann law)时,这个关系将是非常重要的.<br>斯特藩-玻尔兹曼定律将物体的温度T与由它辐射的、呈现为电磁辐射形式的能量通量联系起来.我们可以用形式为$\mathrm{d}U&#x3D;T\mathrm{d}S-p\mathrm{d}V$的热力学第一定律推导出这个关系.<br>第一定律给出<br>$$(\frac{\partial U}{\partial V})<em>{T}&#x3D;T(\frac{\partial S}{\partial V})</em>{T}-p&#x3D;T(\frac{\partial p}{\partial T})_{V}-p\tag{5}$$</p>]]></content>
       
       
+      <categories>
+          
+          <category> 物理 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 物理 </tag>
+            
+            <tag> 热统 </tag>
+            
+        </tags>
       
     </entry>
     
