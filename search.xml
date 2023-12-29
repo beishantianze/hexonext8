@@ -4,11 +4,30 @@
   
     
     <entry>
+      <title>卡方独立性检验</title>
+      <link href="/hexonext8//post/%E5%8D%A1%E6%96%B9%E7%8B%AC%E7%AB%8B%E6%80%A7%E6%A3%80%E9%AA%8C.html"/>
+      <url>/hexonext8//post/%E5%8D%A1%E6%96%B9%E7%8B%AC%E7%AB%8B%E6%80%A7%E6%A3%80%E9%AA%8C.html</url>
+      
+        <content type="html"><![CDATA[<p>独立性检验或许是高中数学的最后一节课,但是她却没有一个很好的”被表述”,这无疑是很大的遗憾,为什么会有$\chi^2$与$\alpha$的关系，为什么检验用$\chi^2$表示都是问题<br>参考资料：《普林斯顿概率论读本》</p><h1 id="卡方分布"><a href="#卡方分布" class="headerlink" title="卡方分布"></a>卡方分布</h1><p>直接引入卡方分布是不负责的行为,至少我们现在并不知道卡方分布与独立性检验有和关系,但并不妨碍引入卡方分布作为前提知识<br>卡方分布：如果随机变量 X 服从自由度为$\nu\geq0$的卡方分布, 那么 X 的概率密度函数为<br>$$f(x)&#x3D;\left{\begin{matrix}   \frac{1}{2^{\mu&#x2F;2\Gamma(\mu&#x2F;2)}}x^{\mu&#x2F;2-1}e^{-x&#x2F;2} \\    0 \end{matrix}\right. $$</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 概率与统计学 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>光子气体</title>
       <link href="/hexonext8//post/%E5%85%89%E5%AD%90%E6%B0%94%E4%BD%93.html"/>
       <url>/hexonext8//post/%E5%85%89%E5%AD%90%E6%B0%94%E4%BD%93.html</url>
       
-        <content type="html"><![CDATA[<p>参考书籍《热物理概念 热力学与统计物理学》</p><h1 id="1-电磁辐射的经典热力学"><a href="#1-电磁辐射的经典热力学" class="headerlink" title="1 电磁辐射的经典热力学"></a>1 电磁辐射的经典热力学</h1><p>我们将环境视为体积为V 的容器(在这个主题中它称为“空窖”)，温度维持为T.<br>窖内的光子与窖壁达到热平衡，形成电磁驻波.如图23.1所示，窖壁由可以导热的材料组成(即窖壁可以在窖内的光子气体和环境之间传输热量)</p><p>!()[231.png]</p><p>如果n为窖中光子气体单位体积的光子数，则气体的能量密度u可以写成<br>$$u&#x3D;\frac{U}{V}&#x3D;n\hslash\omega\tag{1}$$<br>其中$\hslash\omega$是一个光子的平均能量.从动理学理论(之后写)可知，粒子气体的压强为$P&#x3D;\frac{1}{3}nm&lt;v^2&gt;$. 对于光子，用光速的平方$c^2$取代该公式中的$&lt;v^2&gt;$.<br>将$mc^2$解释为一个光子的能量，则有辐射压强p等于能量密度的1&#x2F;3.于是<br>$$p&#x3D;\frac{u}{3}\tag{2}$$<br>它不同于气体动理学理论中的表示式($p&#x3D;\frac{2u}{3}$)<br>(2)给出了电磁辐射产生的辐射压强的表示式.<br>又由动理学理论可知，在容器壁上光子的通量$\Phi$,也就是说每秒钟撞击容器壁单位面积的光子数，由下式给出：<br>$$\Phi&#x3D;\frac{1}{4}nc\tag{3}$$<br>其中c是光速.(但更应该为$\frac{\mathrm{d}\Phi}{\mathrm{d}t}&#x3D;\frac{1}{4}nc$,但为了和其他章一致还是保留原书$\Phi$的写法)<br>由该式与方程(1),我们可以将光子产生的单位窖壁面积上的入射功率写为<br>$$F&#x3D;\hslash w\Phi&#x3D;\frac{1}{4}uc\tag{4}$$<br>当我们现在推导斯特藩- 玻尔兹曼定律(Stefan-Boltzmann law)时,这个关系将是非常重要的.<br>斯特藩-玻尔兹曼定律将物体的温度T与由它辐射的、呈现为电磁辐射形式的能量通量联系起来.我们可以用形式为$\mathrm{d}U&#x3D;T\mathrm{d}S-p\mathrm{d}V$的热力学第一定律推导出这个关系.<br>第一定律给出<br>$$(\frac{\partial U}{\partial V})_{T}&#x3D;T(\frac{\partial S}{\partial V})_{T}-p&#x3D;T(\frac{\partial p}{\partial T})_{V}-p\tag{5}$$<br>其中最后一个等式使用了麦克斯韦关系.<br>方程(5)的左边就是能量密度u.因此，利用方程(5)以及方程(2),可以得到<br>$$u&#x3D;\frac{1}{3}T(\frac{\partial u}{\partial T})_{V}-\frac{u}{3}\tag{6}$$<br>整理得<br>$$4u&#x3D;T(\frac{\partial u}{\partial T})_{V}\tag{7}$$<br>由此则有<br>$$4\frac{\mathrm{d}T}{T}&#x3D;\frac{\mathrm{d}u}{u}\tag{8}$$<br>对方程(8)积分可得<br>$$u&#x3D;AT^4\tag{9}$$<br>其中,$A$是积分常数，单位为$J\cdot K^{-4}\cdot m^{-3}$.现在用方程(4)可以得到单位面积上的入射功率为<br>$$F&#x3D;\frac{1}{4}uc&#x3D;(\frac{1}{4}Ac)T^4&#x3D;\sigma T^4\tag{10}$$<br>其中括号中的项$\sigma &#x3D;\frac{1}{4}Ac$是斯特藩-玻尔兹曼常量(Stefan-Boltzmann constant).<br>方程(10)称为斯特藩- 玻尔兹曼定律(Stefan-Boltzmann law)或有时称为斯特藩定律(Stefan’s law).<br>现在还不清楚常量$\sigma$取什么值，这是起初由实验确定值的某个量.在后面中，利用统计力学的方法我们可以导出这个常量的一个表示式.</p>]]></content>
+        <content type="html"><![CDATA[<p>参考书籍《热物理概念 热力学与统计物理学》</p><h1 id="1-电磁辐射的经典热力学"><a href="#1-电磁辐射的经典热力学" class="headerlink" title="1 电磁辐射的经典热力学"></a>1 电磁辐射的经典热力学</h1><p>我们将环境视为体积为V 的容器(在这个主题中它称为“空窖”)，温度维持为T.<br>窖内的光子与窖壁达到热平衡，形成电磁驻波.如图23.1所示，窖壁由可以导热的材料组成(即窖壁可以在窖内的光子气体和环境之间传输热量)</p><p><img src="/hexonext8/images/231.png"></p><p>如果n为窖中光子气体单位体积的光子数，则气体的能量密度u可以写成<br>$$u&#x3D;\frac{U}{V}&#x3D;n\hslash\omega\tag{1}$$<br>其中$\hslash\omega$是一个光子的平均能量.从动理学理论(之后写)可知，粒子气体的压强为$P&#x3D;\frac{1}{3}nm&lt;v^2&gt;$. 对于光子，用光速的平方$c^2$取代该公式中的$&lt;v^2&gt;$.<br>将$mc^2$解释为一个光子的能量，则有辐射压强p等于能量密度的1&#x2F;3.于是<br>$$p&#x3D;\frac{u}{3}\tag{2}$$<br>它不同于气体动理学理论中的表示式($p&#x3D;\frac{2u}{3}$)<br>(2)给出了电磁辐射产生的辐射压强的表示式.<br>又由动理学理论可知，在容器壁上光子的通量$\Phi$,也就是说每秒钟撞击容器壁单位面积的光子数，由下式给出：<br>$$\Phi&#x3D;\frac{1}{4}nc\tag{3}$$<br>其中c是光速.(但更应该为$\frac{\mathrm{d}\Phi}{\mathrm{d}t}&#x3D;\frac{1}{4}nc$,但为了和其他章一致还是保留原书$\Phi$的写法)<br>由该式与方程(1),我们可以将光子产生的单位窖壁面积上的入射功率写为<br>$$F&#x3D;\hslash w\Phi&#x3D;\frac{1}{4}uc\tag{4}$$<br>当我们现在推导斯特藩- 玻尔兹曼定律(Stefan-Boltzmann law)时,这个关系将是非常重要的.<br>斯特藩-玻尔兹曼定律将物体的温度T与由它辐射的、呈现为电磁辐射形式的能量通量联系起来.我们可以用形式为$\mathrm{d}U&#x3D;T\mathrm{d}S-p\mathrm{d}V$的热力学第一定律推导出这个关系.<br>第一定律给出<br>$$(\frac{\partial U}{\partial V})_{T}&#x3D;T(\frac{\partial S}{\partial V})_{T}-p&#x3D;T(\frac{\partial p}{\partial T})_{V}-p\tag{5}$$<br>其中最后一个等式使用了麦克斯韦关系.<br>方程(5)的左边就是能量密度u.因此，利用方程(5)以及方程(2),可以得到<br>$$u&#x3D;\frac{1}{3}T(\frac{\partial u}{\partial T})_{V}-\frac{u}{3}\tag{6}$$<br>整理得<br>$$4u&#x3D;T(\frac{\partial u}{\partial T})_{V}\tag{7}$$<br>由此则有<br>$$4\frac{\mathrm{d}T}{T}&#x3D;\frac{\mathrm{d}u}{u}\tag{8}$$<br>对方程(8)积分可得<br>$$u&#x3D;AT^4\tag{9}$$<br>其中,$A$是积分常数，单位为$J\cdot K^{-4}\cdot m^{-3}$.现在用方程(4)可以得到单位面积上的入射功率为<br>$$F&#x3D;\frac{1}{4}uc&#x3D;(\frac{1}{4}Ac)T^4&#x3D;\sigma T^4\tag{10}$$<br>其中括号中的项$\sigma &#x3D;\frac{1}{4}Ac$是斯特藩-玻尔兹曼常量(Stefan-Boltzmann constant).<br>方程(10)称为斯特藩- 玻尔兹曼定律(Stefan-Boltzmann law)或有时称为斯特藩定律(Stefan’s law).<br>现在还不清楚常量$\sigma$取什么值，这是起初由实验确定值的某个量.在后面中，利用统计力学的方法我们可以导出这个常量的一个表示式.</p><h1 id=""><a href="#" class="headerlink" title=""></a></h1>]]></content>
       
       
       <categories>
