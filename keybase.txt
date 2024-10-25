@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/tianz
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://tianz.us.kg
+  * I am tianz (https://keybase.io/tianz) on keybase.
+  * I have a public key ASDQ-N-J0Tvmz9jW6lEfMndrWgJWLfPVT7SqiIW6o4xEpwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120d0f8df89d13be6cfd8d6ea511f32776b5a02562df3d54fb4aa8885baa38c44a70a",
+      "host": "keybase.io",
+      "kid": "0120d0f8df89d13be6cfd8d6ea511f32776b5a02562df3d54fb4aa8885baa38c44a70a",
+      "uid": "f0fa7182f6d7cb3148852877bfea1e19",
+      "username": "tianz"
+    },
+    "merkle_root": {
+      "ctime": 1729872254,
+      "hash": "438e941dae782a91f73ed579c8d352c9a95204a1f3491fa0695c3fd47997132a835aea85342345ca73bb8d4456ad3a5eac8d613ba2dcfa83ff5f06252d4a0475",
+      "hash_meta": "5cd882216e88826be39fd2fc2064159337e0130ed7410ade5fe9865ec6d1a080",
+      "seqno": 26241904
+    },
+    "service": {
+      "entropy": "tCMcsaEO5UNbfnDLIGb7tavw",
+      "hostname": "tianz.us.kg",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.4.0"
+  },
+  "ctime": 1729872269,
+  "expire_in": 504576000,
+  "prev": "de9b9f77eeee038ef53811526f6ae486250654cc80905050b06ed02b3fdc1f22",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg0PjfidE75s/Y1upRHzJ3a1oCVi3z1U+0qoiFuqOMRKcKp3BheWxvYWTESpcCBcQg3pufd+7uA471OBFSb2rkhiUGVMyAkFBQsG7QKz/cHyLEIDOjkHabdeEf/5Gfw7oTJ9X2HfnpqCSnAAQ988X7dEu+AgHCo3NpZ8RAmWuY1/5kF3LA38UUWotS2uhmHBsGs9waeyzr2PW6uw48QeCcgGCd8tzporzAGTqt4Ay/8Q185NXjg4WYR19dAahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEINFdnfI/WaJmuDpqcWHgI9s7BYzXdAHzXzhBHKmIGOYro3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/tianz
+
+==================================================================
